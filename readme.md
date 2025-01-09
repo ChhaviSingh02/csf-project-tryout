@@ -55,29 +55,6 @@ Visual Representation of Workflow:
           <--- Response ---
    
 
- Threads in Server Communication:
-
-1. A server can handle multiple clients simultaneously using threads:
-   
-   Client (C1) ----\
-                    |--> Server (Threaded Requests)
-   Client (C2) ----/
-   
-2. Threads allow multiple requests to be processed without blocking others, ensuring efficiency.
-
-
-Connection Termination:
-- Manual Flags:Used to terminate connections:
-  - `FIN`: Indicates the end of communication.
-  - `ACK`: Acknowledges the termination.
-
-- Timeouts and Socket Relationships:
-  - Persistent connections may use timeouts to close idle sockets after a predefined duration.
-
-    
-     
-
-     
 
      
      
