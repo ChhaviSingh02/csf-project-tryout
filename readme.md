@@ -73,6 +73,7 @@ Connection Termination:
 - Timeouts and Socket Relationships:
   - Persistent connections may use timeouts to close idle sockets after a predefined duration.
 
+--Working and learning on it
     
      
 
